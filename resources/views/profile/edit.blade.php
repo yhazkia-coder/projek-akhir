@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kelola Profil - E-Doc Akademik</title>
+    <title>Kelola Profil - my-report</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style> body { font-family: 'Inter', sans-serif; } </style>
@@ -14,7 +14,7 @@
     <header class="bg-blue-900 text-white shadow-md">
         <div class="px-6 py-4 flex justify-between items-center max-w-6xl mx-auto">
             <div class="flex items-center space-x-3">
-                <span class="font-bold text-lg">E-DOC AKADEMIK</span>
+                <span class="font-bold text-lg">my-report</span>
                 <span class="text-xs bg-blue-800 px-2.5 py-1 rounded-full text-blue-200">Kelola Profil</span>
             </div>
             <a href="{{ Auth::user()->role === 'admin' ? route('admin.dashboard') : url('/siswa/dashboard') }}" 

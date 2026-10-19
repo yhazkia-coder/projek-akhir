@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard Admin - E-Doc Akademik</title>
+    <title>Dashboard Admin - my-report</title>
     <!-- Tailwind CSS via CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -17,7 +17,7 @@
     <header class="bg-blue-900 text-white shadow-md">
         <div class="px-6 py-4 flex justify-between items-center">
             <div class="flex items-center space-x-3">
-                <span class="font-bold text-lg tracking-wide">E-DOC AKADEMIK</span>
+                <span class="font-bold text-lg tracking-wide">my-report</span>
                 <span class="text-xs bg-blue-800 px-2.5 py-1 rounded-full text-blue-200">Admin Panel</span>
             </div>
             <div class="flex items-center space-x-4 text-sm">
